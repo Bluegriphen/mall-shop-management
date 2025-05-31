@@ -1,0 +1,84 @@
+.container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  position: relative;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.table tr:hover {
+  background-color: #e0f7fa; /* Light blue on hover */
+}
+
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-view {
+  background-color: #2196F3; /* Blue */
+  color: white;
+}
+
+.button-view:hover {
+  background-color: #1976D2; /* Darker blue */
+}
+
+.button-delete {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+.button-delete:hover {
+  background-color: #d32f2f; /* Darker red */
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.export-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.export-button:hover {
+  background-color: #388E3C; /* Darker green */
+}

@@ -1,0 +1,27 @@
+.navigation-container {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for the navigation */
+  border-right: 1px solid #ddd; /* Right border for separation */
+}
+
+.nav-link {
+  display: block;
+  padding: 10px 15px;
+  margin: 5px 0;
+  text-align: center;
+  border-bottom: 2px solid transparent; /* Default border */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  color: #4a4a4a; /* Dark gray text */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.nav-link:hover {
+  background-color: #e0e0e0; /* Light gray on hover */
+  border-bottom: 2px solid #4CAF50; /* Green border on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.nav-link.active {
+  background-color: #d0ffd0; /* Light green for active link */
+  border-bottom: 2px solid #4CAF50; /* Green border for active link */
+}

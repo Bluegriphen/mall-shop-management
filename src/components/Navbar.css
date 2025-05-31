@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding:1rem 2rem;
+    color: white;
+}
+
+.navbar a {
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.navbar a.active{
+    color: yellow;
+}
